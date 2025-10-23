@@ -43,4 +43,4 @@ def shuffle(deck:list[dict]):
 # print(compare_cards(card_1, card_2))
 
 # print(shuffle([card_1,card_2]))
-print('lendeck ....', shuffle(create_deck()))
+# print('lendeck ....', shuffle(create_deck()))
