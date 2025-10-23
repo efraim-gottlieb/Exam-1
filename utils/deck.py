@@ -33,14 +33,3 @@ def shuffle(deck:list[dict]):
         card_2 = randint(0,len(deck) -1)
         deck[card_1], deck[card_2] = deck[card_2], deck[card_1]
     return deck
-
-
-
-
-# ===================================== TESTS ===================================== #
-# card_1 = create_card('K', 'H')
-# card_2 = create_card('A', 'H')
-# print(compare_cards(card_1, card_2))
-
-# print(shuffle([card_1,card_2]))
-# print('lendeck ....', shuffle(create_deck()))
