@@ -27,10 +27,10 @@ def play_round(p1:dict,p2:dict):
     if compare == 'p1':
         p1['won_pile'].append(card_p1)
         p1['won_pile'].append(card_p2)
-        print(f'{p1['name']} win in this round, {p1['name']} take {card_p1} and {card_p2}')
+        print(f'\n\n\n{p1['name']} win in this round\n{'-' * 25}\n\n\n{p1['name']} take {card_p1} and {card_p2}\n\n\n')
     elif compare == 'p2':
         p2['won_pile'].append(card_p1)
         p2['won_pile'].append(card_p2)
-        print(f'{p2['name']} win in this round, {p2['name']} take {card_p1} and {card_p2}')
+        print(f'\n\n\n{p2['name']} win in this round\n{'-' * 25}\n\n\n{p2['name']} take {card_p1} and {card_p2}\n\n\n')
     if compare == 'WAR':
-        print('WAR')
+        print(f'\n\n\nWAR\n{'-' * 3}\n\n\n')
